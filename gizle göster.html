@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+</script>
+</head>
+<body>
+
+<p>Eğer "Gizle" butonuna basarsan bu satır gizelenecek. Geri getirmek için "Göster" butonuna bas</p>
+
+<button id="hide">Gizle</button>
+<button id="show">Göster</button>
+
+</body>
+</html>
